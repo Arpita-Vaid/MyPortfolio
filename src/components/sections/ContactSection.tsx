@@ -25,10 +25,9 @@ export function ContactSection() {
       message,
     }
 
-    // Replace these values with your EmailJS details
-    const serviceId = 'service_co1cp7b'
-    const templateId = 'template_bvv543b'
-    const publicKey = '58dLz1nOoMblnCrHe'
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
     emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then(() => {

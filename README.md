@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Arpita Vaid — Portfolio
 
 Premium software engineer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion.
@@ -10,11 +9,33 @@ Premium software engineer portfolio built with React, TypeScript, Tailwind CSS, 
 - Tailwind CSS v4
 - Framer Motion
 - Lucide React
+- EmailJS
 
 ## Getting Started
 
 ```bash
 npm install
+```
+
+### Set up environment variables
+
+Copy the example env file and fill in your [EmailJS](https://www.emailjs.com/) credentials:
+
+```bash
+cp .env.example .env
+```
+
+Then edit `.env` with your values:
+
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+### Run the dev server
+
+```bash
 npm run dev
 ```
 
@@ -34,7 +55,7 @@ Open [http://localhost:5173](http://localhost:5173).
 | Education | BE, HSC, SSC |
 | Achievements | HerVision, academics, certifications |
 | Experience | Project-based full-stack experience |
-| Contact | Form (mailto), email, location, socials |
+| Contact | Form (EmailJS), email, location, socials |
 | Footer | Copyright |
 
 ## Customize
@@ -53,6 +74,3 @@ npm run preview
 ## Deploy
 
 Deploy the `dist` folder to Vercel, Netlify, or GitHub Pages.
-=======
-# MyPortfolio
->>>>>>> 43f3ca3cb9108885de73e2c4690e14f99d7076c3
