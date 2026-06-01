@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Arpita Vaid — Portfolio
 
 Premium software engineer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion.
@@ -52,3 +53,6 @@ npm run preview
 ## Deploy
 
 Deploy the `dist` folder to Vercel, Netlify, or GitHub Pages.
+=======
+# MyPortfolio
+>>>>>>> 43f3ca3cb9108885de73e2c4690e14f99d7076c3
